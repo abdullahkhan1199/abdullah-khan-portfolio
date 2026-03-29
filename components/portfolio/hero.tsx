@@ -52,7 +52,9 @@ export function Hero() {
             {/* Location */}
             <div className="mt-4 flex items-center gap-1.5 text-sm text-muted-foreground">
               <MapPin className="h-4 w-4" />
-              <span>Champaign, IL</span>
+              <span>New York, NY</span>
+              <span className="text-muted-foreground/50">·</span>
+              <span>Open to relocation</span>
             </div>
 
             {/* Bio paragraph */}
