@@ -59,9 +59,9 @@ export function Hero() {
 
             {/* Bio paragraph */}
             <p className="mt-6 max-w-xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-              I'm Abdullah Khan, a data analyst with 2+ years of experience turning complex business data into clear 
-              insights, dashboards, and reporting solutions. I've supported Fortune 500 clients through KPI reporting, 
-              campaign analytics, automation, and decision-focused analysis using SQL, Python, Tableau, and Excel.
+              Data analyst with 2+ years of experience in business analytics, KPI reporting, dashboarding, 
+              and reporting automation. I've supported Fortune 500 clients through campaign analytics, audience 
+              segmentation, and executive-facing insights using SQL, Python, Tableau, Power BI, and Excel.
             </p>
 
 
@@ -89,7 +89,7 @@ export function Hero() {
 
             {/* Credibility line */}
             <p className="mt-6 text-sm text-muted-foreground/70 italic">
-              Experience supporting analytics initiatives for enterprise clients including Walmart, Walgreens, and 7-Eleven.
+              UIUC Graduate · Published Elsevier Research Co-Author · Course Assistant at Gies College of Business
             </p>
 
             {/* Social links */}

@@ -6,6 +6,7 @@ import { StatsSection } from "@/components/portfolio/stats-section"
 import { AboutSection } from "@/components/portfolio/about-section"
 import { ExperienceSection } from "@/components/portfolio/experience-section"
 import { ProjectsSection } from "@/components/portfolio/projects-section"
+import { PublicationsSection } from "@/components/portfolio/publications-section"
 import { ToolsSection } from "@/components/portfolio/tools-section"
 import { EducationSection } from "@/components/portfolio/education-section"
 import { ContactSection } from "@/components/portfolio/contact-section"
@@ -22,6 +23,7 @@ export default function Page() {
         <AboutSection />
         <ExperienceSection />
         <ProjectsSection />
+        <PublicationsSection />
         <ToolsSection />
         <EducationSection />
         <ContactSection />

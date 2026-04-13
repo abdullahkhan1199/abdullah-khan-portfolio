@@ -21,7 +21,7 @@ const links = [
     icon: MapPin,
     label: "Location",
     href: "#",
-    display: "Champaign, IL, USA",
+    display: "New York, NY, USA",
     iconBg: "bg-rose-100 text-rose-600",
   },
   {

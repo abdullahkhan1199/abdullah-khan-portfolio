@@ -6,9 +6,9 @@ import { GraduationCap, Briefcase, Wrench, Target, Github, Linkedin } from "luci
 const highlights = [
   {
     icon: GraduationCap,
-    label: "Currently Studying",
+    label: "Education",
     value: "MS in Technology Management",
-    sub: "UIUC · GPA 3.81/4.0",
+    sub: "UIUC · GPA 3.81/4.0 · Class of 2025",
     iconBg: "bg-purple-100 text-purple-600",
   },
   {
@@ -29,7 +29,7 @@ const highlights = [
     icon: Target,
     label: "Looking For",
     value: "Full-time roles in Data Analytics",
-    sub: "Business Intelligence · Data Science starting 2025",
+    sub: "Business Intelligence · Operations Analytics · BI",
     iconBg: "bg-rose-100 text-rose-600",
   },
 ]
@@ -52,26 +52,26 @@ export function AboutSection() {
           {/* Left - Photo and bio */}
           <div className="lg:col-span-3 space-y-5">
             <p className="text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-              I completed my <span className="text-foreground font-medium">Master of Science in Technology Management</span> at 
-              the University of Illinois Urbana-Champaign, where I strengthened my foundation in analytics, data storytelling, 
+              I hold a <span className="text-foreground font-medium">Master of Science in Technology Management</span> from 
+              the University of Illinois Urbana-Champaign, where I deepened my expertise in analytics, data storytelling, 
               and business strategy. My background combines technical execution with business problem-solving, allowing me to 
               translate raw data into decisions that stakeholders can act on.
             </p>
 
             <p className="text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-              Most recently, I worked as a <span className="text-foreground font-medium">Business Practicum Consultant</span> with 
-              International Filter Manufacturing, where I helped automate RFQ tracking by integrating the SAM.gov API into a 
-              custom Flask application, reducing manual effort and improving visibility across 7,000+ contracts.
+              At <span className="text-foreground font-medium">Tredence</span>, I supported Fortune 500 retail and 
+              healthcare clients through KPI reporting, campaign measurement, audience segmentation, and executive-facing dashboards 
+              for over two years — helping teams make faster, better business decisions using SQL, Python, Tableau, and Excel.
             </p>
 
             <p className="text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-              Before that, at <span className="text-foreground font-medium">Tredence</span>, I supported Fortune 500 retail and 
-              healthcare clients through KPI reporting, campaign measurement, audience segmentation, and executive-facing dashboards. 
-              My work focused on helping teams make faster, better business decisions using SQL, Python, Tableau, Excel, and automation tools.
+              As a <span className="text-foreground font-medium">Business Practicum Consultant</span> at 
+              International Filter Manufacturing, I automated RFQ tracking by integrating the SAM.gov API into a 
+              custom Flask application, reducing manual effort by 80% and improving visibility across 7,000+ contracts.
             </p>
 
             <p className="text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-              I'm currently seeking full-time opportunities in <span className="text-foreground font-medium">data analytics, 
+              Based in New York, I'm seeking full-time opportunities in <span className="text-foreground font-medium">data analytics, 
               business analytics, business intelligence, and reporting-focused roles</span>.
             </p>
 
