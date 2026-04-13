@@ -29,19 +29,15 @@ const experiences = [
     location: "Bengaluru, India",
     badges: ["10M+ Customers", "30% Time Saved", "Fortune 500"],
     bullets: [
-      "Supported analytics initiatives for enterprise clients including Walmart, Walgreens, and 7-Eleven across campaign measurement, KPI reporting, and audience segmentation.",
-      "Built a measurement framework to evaluate campaign effectiveness and visualize KPIs via Tableau dashboards, analyzing behavior of 10M+ customers for Walgreens.",
+      "Supported analytics initiatives for Fortune 500 retail and pharmacy clients across campaign measurement, KPI reporting, and audience segmentation.",
+      "Built a measurement framework to evaluate campaign effectiveness and visualize KPIs via Tableau dashboards, analyzing behavior of 10M+ customers for a leading U.S. pharmacy retailer.",
       "Designed match panel logic using K-Means clustering to generate statistically sound test vs. control groups for marketing experiments.",
       "Streamlined SQL workflows using Python (Pandas), reducing manual reporting time by 15% across campaign analytics processes.",
       "Automated PowerPoint reporting with Python-pptx, saving 30% time on recurring deck creation and enhancing stakeholder visibility.",
       "Partnered with strategy and analytics leads to translate analysis into recommendations, decision memos, and executive dashboards.",
     ],
     companyDesc: "Global data science and AI solutions company serving Fortune 500 clients in retail, CPG, healthcare, and financial services.",
-    clients: [
-      { name: "Walmart", logo: "/images/walmart-logo.svg" },
-      { name: "Walgreens", logo: "/images/walgreens-logo.svg" },
-      { name: "7-Eleven", logo: "/images/7eleven-logo.svg" },
-    ],
+    clients: [],
   },
 ]
 
@@ -144,8 +140,8 @@ export function ExperienceSection() {
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/10">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-blue-100 text-blue-600">
-                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" /></svg>
+                <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-blue-100">
+                  <Image src="/images/gies-logo.svg" alt="Gies College of Business" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold text-foreground">Course Assistant</h3>
@@ -160,17 +156,24 @@ export function ExperienceSection() {
 
             <div className="rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/10">
               <div className="flex items-center gap-3 mb-3">
-                <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-teal-100 text-teal-600">
-                  <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}><path strokeLinecap="round" strokeLinejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" /></svg>
+                <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-teal-100">
+                  <Image src="/images/saayam-logo.svg" alt="Saayam For All" fill className="object-cover" />
                 </div>
                 <div>
-                  <h3 className="text-sm font-semibold text-foreground">Volunteer</h3>
+                  <h3 className="text-sm font-semibold text-foreground">Data Analyst & Project Lead</h3>
                   <p className="text-xs text-muted-foreground">Saayam For All</p>
                 </div>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Contributed to a mission-driven platform connecting individuals in need with volunteers and organizations. Observed how structured data, request tracking, and categorization improve coordination and service delivery.
+                Leading analytics for an early-stage social impact platform serving 2,000+ users across the US. Built dashboards tracking request fulfillment KPIs (response time, completion rate, geographic coverage), analyzed demand-supply patterns to improve volunteer-to-request matching, and standardized data pipelines across user, volunteer, and NGO sources to ensure reporting accuracy.
               </p>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Tableau</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Python</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">KPI Dashboards</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Data Cleaning</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Jira</span>
+              </div>
               <p className="mt-3 text-xs text-muted-foreground/70">Oct 2025 – Present</p>
             </div>
           </div>

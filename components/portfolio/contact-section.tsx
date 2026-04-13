@@ -31,6 +31,13 @@ const links = [
     display: "linkedin.com/in/abdullahkhan1199",
     iconBg: "bg-purple-100 text-purple-600",
   },
+  {
+    icon: Github,
+    label: "GitHub",
+    href: "https://github.com/abdullahkhan1199",
+    display: "github.com/abdullahkhan1199",
+    iconBg: "bg-slate-100 text-slate-600",
+  },
 ]
 
 export function ContactSection() {

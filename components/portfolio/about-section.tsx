@@ -60,8 +60,9 @@ export function AboutSection() {
 
             <p className="text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
               At <span className="text-foreground font-medium">Tredence</span>, I supported Fortune 500 retail and 
-              healthcare clients through KPI reporting, campaign measurement, audience segmentation, and executive-facing dashboards 
-              for over two years — helping teams make faster, better business decisions using SQL, Python, Tableau, and Excel.
+              pharmacy clients through KPI reporting, campaign measurement, audience segmentation, and executive-facing dashboards 
+              for over two years — helping teams make faster, better business decisions using SQL, Python, Tableau, and Excel. 
+              Increasingly focused on using AI to make analytics workflows faster and more scalable.
             </p>
 
             <p className="text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">

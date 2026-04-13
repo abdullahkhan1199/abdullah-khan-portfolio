@@ -46,7 +46,7 @@ export function Hero() {
 
             {/* Title */}
             <p className="mt-3 text-xl text-muted-foreground sm:text-2xl">
-              Data Analyst | Business Analytics | BI & Reporting Automation
+              Data Analyst | Business Analytics | BI & Reporting Automation | AI-Enabled Analytics
             </p>
 
             {/* Location */}

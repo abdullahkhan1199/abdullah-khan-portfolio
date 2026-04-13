@@ -12,7 +12,7 @@ export function PublicationsSection() {
             Research & Publications
           </p>
           <h2 className="mt-2 text-3xl font-bold text-foreground">
-            Analytical Work<span className="text-muted-foreground"> Beyond Industry Projects.</span>
+            Peer-Reviewed Research<span className="text-muted-foreground"> Demonstrating Analytical Rigor Beyond Industry Work.</span>
           </h2>
         </div>
 
@@ -25,10 +25,10 @@ export function PublicationsSection() {
               </div>
               <div className="flex-1">
                 <h3 className="text-lg font-semibold text-foreground leading-snug">
-                  Synergistic Enhancement of Biogas Production Using a Combination of Solar Energy with Organic and Inorganic Additives
+                  Synergistic Enhancement of Biogas Production Using Solar-Thermal Energy and Supplemental Additives
                 </h3>
-                <p className="mt-1 text-muted-foreground">
-                  Bioresource Technology Reports (Elsevier) <span className="text-muted-foreground/50">·</span> 2026
+                <p className="mt-1 text-sm text-muted-foreground">
+                  Energy Reports (Elsevier/ScienceDirect) · Published 2026 · Peer-Reviewed · Open Access
                 </p>
               </div>
             </div>
@@ -36,17 +36,29 @@ export function PublicationsSection() {
             {/* Highlight chips */}
             <div className="mt-4 flex flex-wrap gap-2">
               <span className="rounded-full bg-indigo-100 px-3 py-1 text-xs font-medium text-indigo-700">
-                Elsevier Publication
+                Peer-Reviewed
+              </span>
+              <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-medium text-blue-700">
+                ScienceDirect Indexed
               </span>
               <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-medium text-green-700">
                 3× Yield Improvement
               </span>
+              <span className="rounded-full bg-orange-100 px-3 py-1 text-xs font-medium text-orange-700">
+                Data Curation
+              </span>
+              <span className="rounded-full bg-purple-100 px-3 py-1 text-xs font-medium text-purple-700">
+                Statistical Analysis
+              </span>
             </div>
 
             <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Co-authored a published Elsevier research paper on optimizing biogas production using solar-assisted systems, 
-              co-digestion, and process optimization. Contributed to data analysis and result interpretation, with findings 
-              demonstrating up to 3× improvement in biogas yield and enhanced process stability.
+              Co-authored a peer-reviewed research paper investigating a four-pronged optimization strategy for biogas 
+              production, combining solar-thermal heating, substrate dilution, and organic/inorganic additives. Contributed 
+              to methodology design, experimental investigation, data curation, and conceptualization. Applied statistical 
+              analysis across 12 biodigesters and 70+ days of experimental data to evaluate performance under varying 
+              temperature, dilution, and additive conditions. Findings demonstrated up to 3× improvement in biogas yield 
+              (476 mL/g VS vs. 166 mL/g control), with results published in an Elsevier-indexed journal.
             </p>
 
             <div className="mt-5">
