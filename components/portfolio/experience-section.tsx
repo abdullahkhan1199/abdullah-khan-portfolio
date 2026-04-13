@@ -141,7 +141,7 @@ export function ExperienceSection() {
             <div className="rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/10">
               <div className="flex items-center gap-3 mb-3">
                 <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-blue-100">
-                  <Image src="/images/gies-logo.svg" alt="Gies College of Business" fill className="object-cover" />
+                  <Image src="/images/gies-logo.png" alt="Gies College of Business" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold text-foreground">Course Assistant</h3>
@@ -157,7 +157,7 @@ export function ExperienceSection() {
             <div className="rounded-xl border border-border bg-card p-5 transition-all hover:border-foreground/10">
               <div className="flex items-center gap-3 mb-3">
                 <div className="relative h-9 w-9 shrink-0 overflow-hidden rounded-lg bg-teal-100">
-                  <Image src="/images/saayam-logo.svg" alt="Saayam For All" fill className="object-cover" />
+                  <Image src="/images/saayam-logo.png" alt="Saayam For All" fill className="object-cover" />
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold text-foreground">Data Analyst & Project Lead</h3>
