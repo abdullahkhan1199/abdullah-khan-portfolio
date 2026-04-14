@@ -1,6 +1,6 @@
 "use client"
 
-import { Code, BarChart3, Database, Cloud, Settings, Users, Sparkles } from "lucide-react"
+import { Code, BarChart3, Database, Cloud, Settings, Sparkles } from "lucide-react"
 
 const skillCategories = [
   {
@@ -34,16 +34,10 @@ const skillCategories = [
     tools: ["PostgreSQL", "SQL Server", "Azure SQL", "Snowflake", "Databricks", "ETL Pipelines", "API Integration"],
   },
   {
-    icon: Users,
-    title: "Collaboration & Delivery",
-    iconBg: "bg-rose-100 text-rose-600",
-    tools: ["Data Storytelling", "Executive Reporting", "Stakeholder Communication", "Git", "Jira", "Confluence"],
-  },
-  {
     icon: Sparkles,
-    title: "AI & Automation",
+    title: "AI, Automation & Delivery",
     iconBg: "bg-violet-100 text-violet-600",
-    tools: ["Generative AI", "AI-Assisted Analytics", "LLMs", "Python Automation", "Prompt Engineering"],
+    tools: ["Generative AI", "AI-Assisted Analytics", "LLMs", "Python Automation", "Prompt Engineering", "Data Storytelling", "Executive Reporting", "Git", "Jira"],
   },
 ]
 

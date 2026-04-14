@@ -149,8 +149,17 @@ export function ExperienceSection() {
                 </div>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                Supported graduate-level business courses through grading, rubric-based evaluation, and course operations with a focus on consistency, accuracy, and timely coordination.
+                Supported graduate-level MBA courses through grading, rubric-based evaluation, and course operations with a focus on consistency, accuracy, and timely coordination.
               </p>
+              <p className="mt-2 text-xs text-muted-foreground/60">
+                Courses: Digital Marketing Analytics · Operations Management · Strategic Innovation
+              </p>
+              <div className="mt-3 flex flex-wrap gap-1.5">
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Grading & Evaluation</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Rubric Design</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Course Operations</span>
+                <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Canvas LMS</span>
+              </div>
               <p className="mt-3 text-xs text-muted-foreground/70">Mar 2026 – Present</p>
             </div>
 

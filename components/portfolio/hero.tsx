@@ -59,9 +59,9 @@ export function Hero() {
 
             {/* Bio paragraph */}
             <p className="mt-6 max-w-xl text-base leading-7 text-muted-foreground sm:text-lg sm:leading-8">
-              Data analyst with 2+ years of experience in business analytics, KPI reporting, dashboarding, 
-              and reporting automation. I've supported Fortune 500 clients through campaign analytics, audience 
-              segmentation, and executive-facing insights using SQL, Python, Tableau, Power BI, and Excel.
+              Data analyst specializing in business analytics, KPI reporting, dashboarding, and reporting 
+              automation. I've supported Fortune 500 clients through campaign analytics, audience segmentation, 
+              and executive-facing insights using SQL, Python, Tableau, Power BI, and Excel.
             </p>
 
 
