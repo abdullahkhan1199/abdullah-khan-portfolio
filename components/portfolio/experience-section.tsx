@@ -164,9 +164,20 @@ export function ExperienceSection() {
                   <p className="text-xs text-muted-foreground">Saayam For All</p>
                 </div>
               </div>
-              <p className="text-sm text-muted-foreground leading-relaxed">
-                Leading analytics for an early-stage social impact platform serving 2,000+ users across the US. Built dashboards tracking request fulfillment KPIs (response time, completion rate, geographic coverage), analyzed demand-supply patterns to improve volunteer-to-request matching, and standardized data pipelines across user, volunteer, and NGO sources to ensure reporting accuracy.
-              </p>
+              <ul className="space-y-1.5">
+                <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1 before:w-1 before:rounded-full before:bg-muted-foreground/40">
+                  Leading analytics for an early-stage social impact platform serving 2,000+ users across the US.
+                </li>
+                <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1 before:w-1 before:rounded-full before:bg-muted-foreground/40">
+                  Built dashboards tracking request fulfillment KPIs (response time, completion rate, geographic coverage).
+                </li>
+                <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1 before:w-1 before:rounded-full before:bg-muted-foreground/40">
+                  Analyzed demand-supply patterns to improve volunteer-to-request matching.
+                </li>
+                <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1 before:w-1 before:rounded-full before:bg-muted-foreground/40">
+                  Standardized data pipelines across user, volunteer, and NGO sources to ensure reporting accuracy.
+                </li>
+              </ul>
               <div className="mt-3 flex flex-wrap gap-1.5">
                 <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Tableau</span>
                 <span className="rounded-md border border-border px-2 py-0.5 text-xs text-muted-foreground">Python</span>

@@ -52,14 +52,20 @@ export function PublicationsSection() {
               </span>
             </div>
 
-            <p className="mt-4 text-sm leading-relaxed text-muted-foreground">
-              Co-authored a peer-reviewed research paper investigating a four-pronged optimization strategy for biogas 
-              production, combining solar-thermal heating, substrate dilution, and organic/inorganic additives. Contributed 
-              to methodology design, experimental investigation, data curation, and conceptualization. Applied statistical 
-              analysis across 12 biodigesters and 70+ days of experimental data to evaluate performance under varying 
-              temperature, dilution, and additive conditions. Findings demonstrated up to 3× improvement in biogas yield 
-              (476 mL/g VS vs. 166 mL/g control), with results published in an Elsevier-indexed journal.
-            </p>
+            <ul className="mt-4 space-y-2">
+              <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1.5 before:w-1.5 before:rounded-full before:bg-muted-foreground/40">
+                Co-authored a peer-reviewed paper investigating a four-pronged optimization strategy for biogas production, combining solar-thermal heating, substrate dilution, and organic/inorganic additives.
+              </li>
+              <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1.5 before:w-1.5 before:rounded-full before:bg-muted-foreground/40">
+                Contributed to methodology design, experimental investigation, data curation, and conceptualization.
+              </li>
+              <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1.5 before:w-1.5 before:rounded-full before:bg-muted-foreground/40">
+                Applied statistical analysis across 12 biodigesters and 70+ days of experimental data to evaluate performance under varying temperature, dilution, and additive conditions.
+              </li>
+              <li className="relative pl-4 text-sm leading-relaxed text-muted-foreground before:absolute before:left-0 before:top-[0.55rem] before:h-1.5 before:w-1.5 before:rounded-full before:bg-muted-foreground/40">
+                Findings demonstrated up to 3× improvement in biogas yield (476 mL/g VS vs. 166 mL/g control), published in an Elsevier-indexed journal.
+              </li>
+            </ul>
 
             <div className="mt-5">
               <a
