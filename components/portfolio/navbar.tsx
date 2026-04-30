@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { Download, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 
 const navLinks = [
   { label: "Home", href: "#home" },
@@ -78,15 +78,6 @@ export function Navbar() {
         {/* Right side */}
         <div className="hidden md:flex items-center gap-3">
           <a
-            href="/resume.pdf"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-lg border border-border bg-card px-3 py-1.5 text-xs font-medium text-foreground transition-colors hover:border-foreground/20"
-          >
-            <Download className="h-3.5 w-3.5" />
-            Resume
-          </a>
-          <a
             href="mailto:abdullahkhan011199@gmail.com"
             className="text-xs text-muted-foreground hover:text-foreground transition-colors"
           >
@@ -129,15 +120,6 @@ export function Navbar() {
             ))}
           </div>
           <div className="mt-4 flex flex-col gap-2 border-t border-border pt-4">
-            <a
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex w-fit items-center gap-1.5 rounded-lg border border-border bg-card px-4 py-2 text-sm font-medium text-foreground transition-colors hover:border-foreground/20"
-            >
-              <Download className="h-4 w-4" />
-              View Resume
-            </a>
             <a
               href="mailto:abdullahkhan011199@gmail.com"
               className="text-xs text-muted-foreground"
