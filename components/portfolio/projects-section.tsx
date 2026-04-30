@@ -58,7 +58,7 @@ const projects: (Project & { badgeColor: string; barColor: string })[] = [
       "Analyzed 20+ years of data to surface peaks and consistency trends.",
       "Season and competition drill-downs for fast comparisons and insight-driven storytelling.",
     ],
-    demo: "https://public.tableau.com/app/profile/abdullah.khan",
+    demo: "https://public.tableau.com/app/profile/abdullah.khan8087/vizzes",
   },
 ]
 

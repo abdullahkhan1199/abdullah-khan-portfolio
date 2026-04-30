@@ -1,7 +1,7 @@
 "use client"
 
 import { useEffect, useState } from "react"
-import { ChevronDown, MapPin, Linkedin, Github, Mail } from "lucide-react"
+import { ChevronDown, MapPin, Linkedin, Github, Mail, Download } from "lucide-react"
 import Image from "next/image"
 
 export function Hero() {
@@ -68,8 +68,17 @@ export function Hero() {
             {/* CTA buttons */}
             <div className="mt-8 flex flex-wrap items-center gap-3">
               <a
-                href="#projects"
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 rounded-lg bg-foreground px-5 py-2.5 text-sm font-medium text-background transition-opacity hover:opacity-90"
+              >
+                <Download className="h-4 w-4" />
+                Resume
+              </a>
+              <a
+                href="#projects"
+                className="inline-flex items-center gap-2 rounded-lg border border-border bg-card px-5 py-2.5 text-sm font-medium text-foreground transition-colors hover:border-foreground/20"
               >
                 View Projects
               </a>
